@@ -23,10 +23,27 @@ In our case (using Linux) we will be using the IPSec standard for the connection
 ## Installation
 In order to install the VPN service we will have to execute the ___install-vpn.sh__ file with __Super User Priviledges *(sudo)*__ using the following command (make sure to be inside the cloned folder):
 
-``~$ sudo bash install-vpn.sh``
+``sudo bash install-vpn.sh``
 
-It will ask you for your machine password if it is your first time using _sudo_ in that terminal session. After that, press enter and let the installation begin by itself. If any errors ocurred, feel free to
-open a new issue in the ___Issues___ section of the repository. __Please make sure that there is not another issue similar to yours before creating a new one so all the same problems can be solved once.__ 
+It will ask you for your machine password if it is your first time using _sudo_ in that terminal session. After that, press enter and let the installation begin by itself.<br>
+Once the installation is completed, the user will be asked if a storage of the VPN access credentials would be desired. Then, if the user decides to save the credentials, a prompt
+asking if an inmediate VPN connection would be desired will appear. Lastly, the installation and the optinal scripts would have been executed and the process will be ended.<br>
+
+If any errors ocurred, feel free to open a new issue in the ___Issues___ section of the repository. __Please make sure that there is not another issue similar to yours before creating a new one
+so all the same problems can be solved once.__
+
+## Usage
+To establish a connection with the VPN, execute the ___connect-vpn.sh___ file with __Super User Priviledges *(sudo)*__ using the following command (make sure to be inside the cloned folder):
+
+``sudo bash connect-vpn.sh``
+
+Once this is done, the VPN will be started and the user will be able to access the internal network.<br>
+
+To disconnect the VPN, execute the ___disconnect-vpn.sh___ file with __Super User Priviledges *(sudo)*__ using the following command (make sure to be inside the cloned folder):
+
+``sudo bash disconnect-vpn.sh``
+
+Once this is donde, the VPN will be disconnected. <br>
 
 ## Disclaimer
 All the commands that are inside the scripts and the information given here were extracted from the _University of La Laguna VPN Guide (only in Spanish)_ [[1]](#1) and some Google pages (see ref. [[2]](#2)). 
