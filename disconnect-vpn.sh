@@ -1,3 +1,4 @@
 #!/bin/bash
-sudo vpnc-disconnect
 
+# Kill the VPN connection
+sudo vpnc-disconnect

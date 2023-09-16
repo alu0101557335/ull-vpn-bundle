@@ -2,7 +2,7 @@
 Simple Bash script that automates the installation, connection and disconnection for the ULL VPN service through IPSec on Linux.
 
 ## Description
-The __ull-vpn-bundle__ repository was created by Pablo Domenico Goya Amato [(alu0101557335@ull.edu.es)](mailto:alu0101557335@ull.edu.es) so that the users that might experience problems with the VPN service
+The **ull-vpn-bundl**_ repository was created by Pablo Domenico Goya Amato [(alu0101557335@ull.edu.es)](mailto:alu0101557335@ull.edu.es) so that the users that might experience problems with the VPN service
 of the University of La Laguna (either for the installation, the connection or the disconnection) could simply run some automatized Bash scripts to complete the basic tasks.
 
 ## Basic introduction
@@ -15,13 +15,15 @@ we have the following options:
 |Ubuntu 18.04 & 20.04|No|Yes|
 |Android|Yes|Yes|
 
-The method for accessing the VPN through Linux systems that we will be using is the __client for Cisco VPN3000 Concentrator, IOS and PIX__[[2]](#2): _vpnc_ which will be installed with the script.
+The method for accessing the VPN through Linux systems that we will be using is the **client for Cisco VPN3000 Concentrator, IOS and PIX**[[2]](#2): *vpn* which will be installed with the script.
 In our case (using Linux) we will be using the IPSec standard for the connection since it is the only one available. So, to define how the IPSec standard works, we have the following definition:
 
 > [...] IPSec adds encryption and authentication to make the protocol more secure. For example, IPSec encrypts data at the source and decrypts it at its destination. It also authenticates the origin of the data. [...][[3]](#3).
 
 ## Installation
-In order to install the VPN service we will have to execute the ___install-vpn.sh__ file with __Super User Priviledges *(sudo)*__ using the following command (make sure to be inside the cloned folder):
+If you **ONLY** want to install the service, please refer to the ***only-install*** folder [[Link]](https://github.com/alu0101557335/ull-vpn-bundle/only-install).
+
+In order to install the VPN service we will have to execute the **install-vpn.sh** file with **Super User Priviledges _(sudo)_** using the following command (make sure to be inside the cloned folder):
 
 ``sudo bash install-vpn.sh``
 
@@ -29,24 +31,24 @@ It will ask you for your machine password if it is your first time using _sudo_ 
 Once the installation is completed, the user will be asked if a storage of the VPN access credentials would be desired. Then, if the user decides to save the credentials, a prompt
 asking if an inmediate VPN connection would be desired will appear. Lastly, the installation and the optinal scripts would have been executed and the process will be ended.<br>
 
-If any errors ocurred, feel free to open a new issue in the ___Issues___ section of the repository. __Please make sure that there is not another issue similar to yours before creating a new one
-so all the same problems can be solved once.__
+If any errors ocurred, feel free to open a new issue in the ***Issues*** section of the repository. __Please make sure that there is not another issue similar to yours before creating a new one
+so all the same problems can be solved at once.__
 
 ## Usage
-To establish a connection with the VPN, execute the ___connect-vpn.sh___ file with __Super User Priviledges *(sudo)*__ using the following command (make sure to be inside the cloned folder):
+To establish a connection with the VPN, execute the ***connect-vpn.sh*** file with **Super User Priviledges _(sudo)_** using the following command (make sure to be inside the cloned folder):
 
 ``sudo bash connect-vpn.sh``
 
 Once this is done, the VPN will be started and the user will be able to access the internal network.<br>
 
-To disconnect the VPN, execute the ___disconnect-vpn.sh___ file with __Super User Priviledges *(sudo)*__ using the following command (make sure to be inside the cloned folder):
+To disconnect the VPN, execute the ***disconnect-vpn.sh*** file with **Super User Priviledges _(sudo)_** using the following command (make sure to be inside the cloned folder):
 
 ``sudo bash disconnect-vpn.sh``
 
-Once this is donde, the VPN will be disconnected. <br>
+Once this is done, the VPN will be disconnected. <br>
 
 ## Disclaimer
-All the commands that are inside the scripts and the information given here were extracted from the _University of La Laguna VPN Guide (only in Spanish)_ [[1]](#1) and some Google pages (see ref. [[2]](#2)). 
+All the commands that are inside the scripts and the information given here were extracted from the *University of La Laguna VPN Guide (only in Spanish)* [[1]](#1) and some Google pages (see ref. [[2]](#2)). 
 Therefore I am not the author of this information and my only goal is to share and make easier the access to it.
 
 ## Sources
