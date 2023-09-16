@@ -45,7 +45,7 @@ To disconnect the VPN, execute the ***disconnect-vpn.sh*** file with **Super Use
 
 ``sudo bash disconnect-vpn.sh``
 
-Once this is done, the VPN will be disconnected. <br>
+Once this is done, the VPN will be disconnected <br>
 
 ## Disclaimer
 All the commands that are inside the scripts and the information given here were extracted from the *University of La Laguna VPN Guide (only in Spanish)* [[1]](#1) and some Google pages (see ref. [[2]](#2)). 
