@@ -2,7 +2,7 @@
 Simple Bash script that automates the installation, connection and disconnection for the ULL VPN service through IPSec on Linux.
 
 ## Description
-The **ull-vpn-bundl**_ repository was created by Pablo Domenico Goya Amato [(alu0101557335@ull.edu.es)](mailto:alu0101557335@ull.edu.es) so that the users that might experience problems with the VPN service
+The **ull-vpn-bundl**_ repository was created by Pablo Domenico Goya Amato [(domenico.goya.38ull.edu.es)](mailto:domenico.goya.38@ull.edu.es) so that the users that might experience problems with the VPN service
 of the University of La Laguna (either for the installation, the connection or the disconnection) could simply run some automatized Bash scripts to complete the basic tasks.
 
 ## Basic introduction
@@ -21,7 +21,7 @@ In our case (using Linux) we will be using the IPSec standard for the connection
 > [...] IPSec adds encryption and authentication to make the protocol more secure. For example, IPSec encrypts data at the source and decrypts it at its destination. It also authenticates the origin of the data. [...][[3]](#3).
 
 ## Installation
-If you **ONLY** want to install the service, please refer to the ***only-install*** folder [[Link]](https://github.com/alu0101557335/ull-vpn-bundle/only-install).
+If you **ONLY** want to install the service, please refer to the ***only-install*** folder [[Link]](https://github.com/domenicogoya/ull-vpn-bundle/only-install).
 
 In order to install the VPN service we will have to execute the **install-vpn.sh** file with **Super User Priviledges _(sudo)_** using the following command (make sure to be inside the cloned folder):
 
