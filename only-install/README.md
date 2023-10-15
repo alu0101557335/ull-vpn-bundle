@@ -1,6 +1,6 @@
 # ull-vpn-bundle/only-install
 This version of the script ONLY installs the VPN service and will not configure an automated access. In order to do so, please refer to the main folder of the repository
- [[Link]](https://github.com/alu0101557335/ull-vpn-bundle).
+ [[Link]](https://github.com/domenicogoya/ull-vpn-bundle).
 
 ## Inforation Description
 The Description, Basic Introduction, Full Installation, Usage, Disclaimer and Sources are available on the main folder of the repository. This page will only show the Basic Installation of the
@@ -18,4 +18,4 @@ If any errors ocurred, feel free to open a new issue in the ***Issues*** section
 so all the same problems can be solved at once.__
 
 ## Repository's Main Folder
-[[Link]](https://github.com/alu0101557335/ull-vpn-bundle).
+[[Link]](https://github.com/domenicogoya/ull-vpn-bundle).
