@@ -2,7 +2,7 @@
 Simple Bash script that automates the installation, connection and disconnection for the ULL VPN service through IPSec on Linux.
 
 ## Description
-The **ull-vpn-bundl**_ repository was created by Pablo Domenico Goya Amato [(domenico.goya.38@ull.edu.es)](mailto:domenico.goya.38@ull.edu.es) so that the users that might experience problems with the VPN service
+The **ull-vpn-bundle** repository was created by Pablo Domenico Goya Amato [(domenico.goya.38@ull.edu.es)](mailto:domenico.goya.38@ull.edu.es) so that the users that might experience problems with the VPN service
 of the University of La Laguna (either for the installation, the connection or the disconnection) could simply run some automatized Bash scripts to complete the basic tasks.
 
 ## Basic introduction
